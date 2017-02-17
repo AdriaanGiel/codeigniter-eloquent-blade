@@ -1,0 +1,15 @@
+{
+    "require": {
+        "codeigniter/framework": "^3.1",
+        "xiaoler/blade": "^0.3.1",
+        "illuminate/database": "^5.2",
+        "symfony/var-dumper": "^3.2",
+        "robmorgan/phinx": "0.5.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "BryKYC\\": "src",
+        "BryKYC\\": "application/models"
+        }
+      }
+}
